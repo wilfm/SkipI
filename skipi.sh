@@ -143,7 +143,7 @@ skp_download() {
 			skp_download "${SKP_THEME_URL}" "${SKP_THEME_SHA1}"
 		skp_echo "Extracting...\n"
 			unzip ${SKP_THEME_BASENAME} -d "${WINEPREFIX}/drive_c/Program Files/"
-		skp_echo "Theme download to 'C:/Program Files/${SKP_THEME_EXTRACTED}' - in winecfg, select 'Desktop Integration', 'Install Theme'.\nThen go to 'My Computer', 'C:', 'Program Files', then '${SKP_THEME_EXTRACTED}'. Then find & select the file ending with '*.msstyles'. Once it has installed, select the Theme, and press 'OK'.\n"
+		skp_echo "Theme download to 'C:/Program Files/${SKP_THEME_EXTRACTED}' - in winecfg, select 'Desktop Integration', 'Install Theme'.\nIf you want to install it, go to 'My Computer', 'C:', 'Program Files', then '${SKP_THEME_EXTRACTED}'. Then find & select the file ending with '*.msstyles'. Once it has installed, select the Theme form the drop-down menu, and press 'OK'.\n"
 		wine winecfg 2> /dev/null
 		
 		
