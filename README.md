@@ -36,3 +36,5 @@ To use it, use the following commands for a Linux system:
     wget https://raw.githubusercontent.com/wilfm/SkipI/master/skipi.sh
     chmod +x skipi.sh
     ./skipi.sh
+
+Note, you need to have the requriements above.
