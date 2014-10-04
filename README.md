@@ -1,7 +1,8 @@
 SkipI
 =====
 
-Installer for SketchUp on Linux systems using Wine
+Installer for SketchUp on Linux systems using Wine.
+It should create a designated wineprefix, download and installs various prerequisistes such as wininet *(based on winetricks implementation)*, the sketchup installer *(from http://dl.trimble.com/sketchup/gsu8/FW-3-0-16846-EN.exe)*, and even a theme for wine *(http://aerilius.deviantart.com/art/Ubuntu-Light-Themes-12-10-327631977 - no option for themes as of yet)*
 
 **System requirements**
 
