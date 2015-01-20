@@ -18,7 +18,7 @@ This script is designed to run on most modern Linux systems - Debian, Ubuntu, Fe
   - 500 MB of available hard-disk space.
   - 3D class Video Card with 128+ MB, supporting OpenGL v1.5+ . Some intel cards may have issues.
   - Licensing isn't supported over a Wide Area Network (WAN). Also, a windows license would need to be used.
-- Fedora will need the 'wine-opencl' package installed so the sketchup does contain a black screen.
+- Fedora will need the 'wine-opencl' package installed so the sketchup does not contain a black screen.
 
 **Usage**
  - Make this script executable, run it... no options yet
